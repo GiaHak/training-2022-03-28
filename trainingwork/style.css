@@ -1,0 +1,14 @@
+.container{
+    /* text-align: center;
+    align-items: center; */
+    width: 300px;
+    height: auto;
+}
+
+.h1{
+    text-align: center;
+    
+}
+.buttons{
+    align-items: center;
+}
