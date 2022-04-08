@@ -1,13 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+<header>
+    <form class="todo">
+        <input name="task" type="text" placeholder="Type text to add note">
+    </form>
+</header>
+<main>
+    <h1>Pending tasks</h1>
+    <ul class="pending"></ul>
+    <h1>Completed tasks</h1>
+    <ul class="completed"></ul>
+</main>
+<script src="app.js"></script>
 </body>
 </html>
